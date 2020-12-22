@@ -1,0 +1,17 @@
+[coztiga@localhost —]$ Is
+Desktop   Documents   grep      LoggedUser   Music           Downloads
+Public    search      Videos    Pictures     Dictionary.txt  lab.sh
+[coztiga@localhost —]$ nano Dictionary.txt
+[coztiga@localhost —]$ ./Dictionary.txt
+Enter he word to search in Para
+Heavy
+Can't find that word
+[coztiga@localhost —]$
+
+
+
+To change the permissions of the text file that we have created and wrap 
+
+[coztiga@localhost —]$chmod 777 Dictionary.txt
+
+It will give Read-Write-Execute permissions to the User, Group, Owner.
