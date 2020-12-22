@@ -1,0 +1,29 @@
+Linux program to check Whether the user has loggedin or not:
+
+[coztiga@locathost ~]$ ls
+Downloads Movies123
+[coztiga@locathost ~]$ cd Movies123
+[coztiga@localhost Movies123]$ nano lab4.sh
+[tushar@tocathost Movies123]$ cat tab4.sh
+/bin/bash
+
+echo "Please enter the user name"
+
+read uName
+
+users > LoggedUser
+
+if grep $uName LoggedUser
+
+then
+
+echo "The user has loggedin"
+
+else
+
+echo "The user has not loggedin"
+
+fi
+
+[coztiga@localhost movies123]$ ./lab4.sh
+Please enter the user name
